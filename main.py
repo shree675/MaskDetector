@@ -32,7 +32,7 @@ while True:
 
     cv2.imshow('Classified', frame)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):               // press q to exit
+    if cv2.waitKey(1) & 0xFF == ord('q'):               # press q to exit
         break
 
 cv2.destroyAllWindows()
